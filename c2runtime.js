@@ -20256,6 +20256,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet,
 	cr.behaviors.EightDir,
 	cr.behaviors.Fade.prototype.cnds.OnFadeOutEnd,
+	cr.system_object.prototype.acts.GoToLayout,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Browser.prototype.acts.GoToURL,
 	cr.plugins_.Browser.prototype.acts.Close,
